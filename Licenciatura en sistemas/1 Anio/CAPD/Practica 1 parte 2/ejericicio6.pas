@@ -26,8 +26,8 @@ begin
 				begin
 					if (precio < min1) then
 					begin
-						min1:= min2;
-						precio:= min1;
+						min2 := min1;
+						min1 := precio;
 					end
 				end;
 			if ((precio > 16) and (codigopar)) then
